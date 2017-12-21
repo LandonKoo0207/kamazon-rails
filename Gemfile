@@ -12,6 +12,8 @@ gem 'sqlite3', group: [:development, :test]
 gem 'pg', group: :production
 # 12 factor for heroku
 gem 'rails_12factor', group: :production
+# twitter bootstrap
+gem 'bootstrap-sass'
 gem 'puma', '~> 3.7'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
