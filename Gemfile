@@ -10,10 +10,13 @@ gem 'rails', '~> 5.1.4'
 gem 'sqlite3', group: [:development, :test]
 # postgres for production database
 gem 'pg', group: :production
+gem 'jquery-rails'
 # 12 factor for heroku
 gem 'rails_12factor', group: :production
 # twitter bootstrap
 gem 'bootstrap-sass'
+# strip for taking payments
+gem 'stripe'
 gem 'puma', '~> 3.7'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
