@@ -15,6 +15,9 @@ gem 'jquery-rails'
 gem 'rails_12factor', group: :production
 # twitter bootstrap
 gem 'bootstrap-sass'
+
+gem 'letter_opener', group: :development
+
 # strip for taking payments
 gem 'stripe'
 gem 'puma', '~> 3.7'
