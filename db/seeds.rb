@@ -9,4 +9,24 @@ AdminUser.create!(email: 'admin@example.com', password: 'password', password_con
 
 niceCat = Product.create(title: "Quality Kitty",
   subtitle: "Suri the Pretty Cat", image_name: "suri_stare.JPG",
-  price: "4.99", sku: "kittyOne", download_url: "https://s3-ap-southeast-2.amazonaws.com/rails-kamazon-bucket/suri_stare.jpg" )
+  price: "4.99", sku: "kittyOne", info: "cute cat", download_url: "https://s3-ap-southeast-2.amazonaws.com/rails-kamazon-bucket/suri_stare.jpg",
+  details: "A really pretty cat", description: %{<p>It's a cat</p>
+})
+
+niceMac = Product.create(title: "iMac 27",
+  subtitle: "iMac 27 inch", image_name: "imac.JPG",
+  price: "2099.99", sku: "imacOne", info: "cool mac", download_url: "https://s3-ap-southeast-2.amazonaws.com/rails-kamazon-bucket/imac.jpg",
+  details: "A new shiny iMac", description: %{<p>It's an iMac</p>
+})
+
+niceMacBook = Product.create(title: "Macbook Pro 15",
+  subtitle: "macbook pro 15 inch", image_name: "macbookpro.JPG",
+  price: "2699.99", sku: "macbookOne", info: "nice macbook", download_url: "https://s3-ap-southeast-2.amazonaws.com/rails-kamazon-bucket/macbookpro.jpg",
+  details: "A new macbook pro!", description: %{<p>It's a Macbook</p>
+})
+
+nicePhone = Product.create(title: "iphone X",
+  subtitle: "iphone X", image_name: "iphone.JPG",
+  price: "2099.99", sku: "iphoneOne", info: "best phone ever", download_url: "https://s3-ap-southeast-2.amazonaws.com/rails-kamazon-bucket/iphone.jpg",
+  details: "A new iphone X", description: %{<p>It's an iPhone</p>
+})
