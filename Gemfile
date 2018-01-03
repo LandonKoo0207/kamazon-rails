@@ -18,6 +18,12 @@ gem 'bootstrap-sass'
 
 gem 'letter_opener', group: :development
 
+gem 'activeadmin'
+gem 'inherited_resources'
+
+# devise
+gem 'devise'
+
 # strip for taking payments
 gem 'stripe'
 gem 'puma', '~> 3.7'
