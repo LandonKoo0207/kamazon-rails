@@ -5,6 +5,7 @@
 </section>
 
 <section id="products">
+  <script src="https://checkout.stripe.com/checkout.js"></script>
   <% @products.each do |product| %>
   <div class="product clearfix">
     <a href="<%= product_path(product) %>">
