@@ -7,3 +7,4 @@ https://kamazon.herokuapp.com
 
 <br>
 Please use 4242 4242 4242 4242 for the credit card number and the future date as the expiry date when playing it around!
+(Development version)
